@@ -17,7 +17,7 @@ csvs是一个用于数据分类统计和分析的可视化应用。<br/>
 * echarts提供了很多类可视化图表，相对来说易上手，只需要找对应的图表api根据demo做就可以。
 ### csvs的功能
 * 选择一个批次的数据，在地图中显示坐标点<br/>
-![](https://https://github.com/hvdecatrina/CSVS/blob/master/image/1.png)
+![image](https://github.com/hvdecatrina/CSVS/blob/master/image/1.png)
 * 点击点坐标，根据该坐标的数据生成可视化图形，点击分类按钮查看各分类下总体数据信息<br/>
 ![](https://https://github.com/hvdecatrina/CSVS/image/2.png)
 * 与可视化图形交互，生成具体的分类统计图表<br/>
