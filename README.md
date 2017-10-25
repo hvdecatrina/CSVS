@@ -19,10 +19,10 @@ csvs是一个用于数据分类统计和分析的可视化应用。<br/>
 * 选择一个批次的数据，在地图中显示坐标点<br/>
 ![image](https://github.com/hvdecatrina/CSVS/blob/master/image/1.png)
 * 点击点坐标，根据该坐标的数据生成可视化图形，点击分类按钮查看各分类下总体数据信息<br/>
-![](https://https://github.com/hvdecatrina/CSVS/image/2.png)
+![image](https://https://github.com/hvdecatrina/CSVS/image/2.png)
 * 与可视化图形交互，生成具体的分类统计图表<br/>
-![](https://https://github.com/hvdecatrina/CSVS/image/3.png)
+![image](https://https://github.com/hvdecatrina/CSVS/image/3.png)
 * 与统计图表交互，生成各分类下的详细数据信息<br/>
-![](https://https://github.com/hvdecatrina/CSVS/image/4.png)
+![image](https://https://github.com/hvdecatrina/CSVS/image/4.png)
 * 在地图中绘制多边形，可以是矩形也可以是多边形，选择感兴趣的位置点，生成可视化图形进行数据分析<br/>
-![](https://https://github.com/hvdecatrina/CSVS/image/4.png)
+![image](https://https://github.com/hvdecatrina/CSVS/image/5.png)
