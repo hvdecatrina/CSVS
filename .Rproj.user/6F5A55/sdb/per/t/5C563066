@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "newAllData <- read.csv(file=\"data/filter/newAllData5.csv\")\ndateList <- as.numeric(as.character(newAllData$SAMPLETIME[!duplicated(newAllData$SAMPLETIME)]))\ndateList <- dateList[order(dateList,decreasing=TRUE)]\nsampleData <- read.csv(file=\"data/group/groupData.csv\")\njsonArray <- function(a, quote = FALSE) {\n  if(quote) {\n    op <- paste0('[\"', paste0(a, collapse = '\", \"'), '\"]')\n  } else {\n    op <- paste0(\"[\", paste0(a, collapse = \", \"), \"]\")      \n  }\n  return(op)\n}\njsonObject <- function(o) {\n  \n  n <- paste0('\"', names(o), '\"')\n  p <- sapply(o, function(x) {\n    if((substr(x, 1, 1) == \"[\" & substr(x, nchar(x), nchar(x)) == \"]\") |\n       (substr(x, 1, 1) == \"{\" & substr(x, nchar(x), nchar(x)) == \"}\")) {\n      op <- x\n    } else {\n      op <- paste0('\"', x, '\"')\n    }\n    return(op)\n  })\n  paste0(\"{\", paste(n, p, sep = \": \", collapse = \", \"), \"}\")\n  \n}\n",
+    "created" : 1493725061460.000,
+    "dirty" : false,
+    "encoding" : "GB2312",
+    "folds" : "",
+    "hash" : "787144990",
+    "id" : "5C563066",
+    "lastKnownWriteTime" : 1493489809,
+    "last_content_update" : 1493489809,
+    "path" : "~/CSVS/global.R",
+    "project_path" : "global.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,9 @@
+{
+    "path" : "~/CSVS",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
